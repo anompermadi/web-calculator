@@ -1,4 +1,4 @@
-# web-calculator
+# Web Calculator
 
 This is sample of project that might be useful to learn when start as front end developer.
 
