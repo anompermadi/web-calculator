@@ -6,11 +6,15 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    width: 35%;
+    float: left;
+}
+
 .container-column{
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 500px;
     text-align: right;
 }
 
@@ -38,7 +42,7 @@ body{
     flex-basis: 25%;
     font-size: 1.5em;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     border: 1px solid black;
     background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
     cursor: pointer;
@@ -59,7 +63,8 @@ body{
 }
 
 .history{
-    width: 80%;
+    width: 55%;
+    float: right;
     margin: 30px auto 0 auto;
     overflow: scroll;
 }
@@ -93,5 +98,13 @@ tr:nth-child(even){
 
     .history{
         width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .container-column{
+        margin: 0 auto;
     }
 }
