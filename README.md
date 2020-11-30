@@ -7,6 +7,7 @@ Tech that I use are
 - CSS
 - JavaScript
 
-this project use DOM and web storage service for temporary save the calculation history.
+this project i use flexbox and responsive media for the UX.
+beside the UI i use the DOM and web storage service for temporary save the calculation history.
 
 Follow the steps and Good luck
